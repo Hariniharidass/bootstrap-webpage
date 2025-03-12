@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Bookings Now</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="./images/favicon.ico" alt="logo" class="logo">
+                Bookings Now</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Book now!</a>
+                    </li>
+                </ul>
+                <div class="col-xs-4">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search here..." aria-label="Search" required>
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <header class="container-fluid p-4 my-2 bg-dark rounded-3">
+        <div class="text-center my-5">
+            <h1 class="display-5 fw-bold text-center my-5 py-5">
+                Explore the world with Us!
+            </h1>
+            <button class="btn btn-success btn-outline-dark btn-lg text-center my-2 btn-lg" type="button">Book now!</button>
+        </div>
+    </header>
+
+    <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/dubai.jpg" class="d-block w-100 image-carousel" alt="dubai">
+                <div class="carousel-caption d-none d-md-block ">
+                    <div class="card bg-dark " style="width: 18rem;" data-bs-theme="dark">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Dubai</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam explicabo totam nam, distinctio atque quae aspernatur hic obcaecati delectus aperiam voluptate. Non nam, mollitia corporis vero molestiae perspiciatis iure distinctio?</p>
+                            <a href="#" class="btn btn-success btn-outline-light">Book now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/italy.jpg" class="d-block w-100 image-carousel" alt="italy">
+                <div class="carousel-caption d-none d-md-block ">
+                    <div class="card bg-dark " style="width: 18rem;" data-bs-theme="dark">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Italy</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ullam maxime libero tenetur delectus rem necessitatibus officia doloremque modi ea perspiciatis pariatur cumque eius aliquid, dolores iusto illum commodi. Vitae.</p>
+                            <a href="#" class="btn btn-success btn-outline-light">Book now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/thailand.jpg" class="d-block w-100 image-carousel" alt="thailand">
+                <div class="carousel-caption d-none d-md-block ">
+                    <div class="card bg-dark " style="width: 18rem;" data-bs-theme="dark">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Thailand</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, cumque corrupti ad voluptatum qui impedit doloremque modi natus quia quidem sit id numquam beatae? Doloribus sint ipsa reprehenderit voluptatum facere.</p>
+                            <a href="#" class="btn btn-success btn-outline-light">Book now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+<footer class="bg-dark py-5">
+    <div class="container-fluid text-light text-center ">
+<p class="display-5 mb-3 ">
+   <a href="#"><img src="./images/favicon.ico" alt="logo" class="logo">
+Bookings Now
+   </a>
+</p>
+
+<small class="text-white-50">
+&copy; Copyright by Bookings Now. All rights reserved.
+</small>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
